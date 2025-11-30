@@ -1,6 +1,5 @@
 # Face Recognition Attendance System
 
-<<<<<<< HEAD
 A fully functional face recognition-based attendance system built with Streamlit that automatically records daily attendance in Excel sheets.
 
 ## Features
