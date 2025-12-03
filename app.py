@@ -14,6 +14,16 @@ from pathlib import Path
 from face_recognition_system import FaceRecognitionSystem
 from attendance_manager import AttendanceManager
 
+# Diagnostic check for OpenCV
+try:
+    print(f"OpenCV Version: {cv2.__version__}")
+    if hasattr(cv2, 'face'):
+        print("cv2.face module is available")
+    else:
+        print("WARNING: cv2.face module is NOT available. Install opencv-contrib-python.")
+except Exception as e:
+    print(f"Error checking OpenCV: {e}")
+
 
 # Page configuration
 st.set_page_config(
