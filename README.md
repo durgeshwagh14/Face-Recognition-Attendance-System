@@ -198,7 +198,3 @@ Attendance_YYYY-MM-DD.xlsx
 
 * Use clear, well-lit face photos
 * Register 3–5 images for best accuracy
-
-
-If you want an **even shorter** README or want me to **auto-generate it as a file**, just tell me!
->>>>>>> 96f8f70fff13cf3679cf80f0ade375edbfebfd69
